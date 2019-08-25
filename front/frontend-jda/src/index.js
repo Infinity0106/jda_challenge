@@ -6,6 +6,7 @@ import Main from './routes/Main';
 import Results from './routes/Results'
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import theme from './theme';
+import './pure-min.css';
 
 const routing = (
     <Router>

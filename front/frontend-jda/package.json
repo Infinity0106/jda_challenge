@@ -17,9 +17,12 @@
     "papaparse": "^5.0.2",
     "react": "latest",
     "react-dom": "latest",
+    "react-pivot": "^4.1.0",
+    "react-pivot-table": "^1.0.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "latest",
-    "recharts": "^1.7.1"
+    "recharts": "^1.7.1",
+    "ts-react-json-table": "^0.1.2"
   },
   "browserslist": {
     "production": [

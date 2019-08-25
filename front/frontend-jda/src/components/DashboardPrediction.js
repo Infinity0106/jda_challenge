@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import '../pure-min.css';
 import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Drawer from '@material-ui/core/Drawer';
@@ -24,7 +25,8 @@ import Orders from './Orders';
 import Button from '@material-ui/core/Button';
 import Papa from 'papaparse'
 import { test } from '../scripts/test.csv';
-import saveAs from 'file-saver'
+import saveAs from 'file-saver';
+import PaginationTable from './PaginationTable';
 
 var globalResults = "";
 
@@ -242,7 +244,7 @@ export default function Dashboard() {
           <Button onClick={()=>parseCSV()}>
             Parse File
           </Button>
-          {results}
+          <PaginationTable/>
         </Container>
         <Copyright />
       </main>
