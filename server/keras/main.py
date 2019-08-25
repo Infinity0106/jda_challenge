@@ -85,3 +85,8 @@ if __name__ == "__main__":
     Y = df["sa_quantity"]
     x_train, x_test, y_train, y_test = train_test_split(
         X, Y, test_size=0.3, random_state=69)
+    print(x_train,y_train)
+    model = JDAKeras()
+    model.add_layers(x_train[0].shape, 1)
+    model.train()
+
