@@ -1,0 +1,13 @@
+{
+  "location": "Categorical",
+  "product": "Categorical",
+  "date": "Date",
+  "sa_quantity": "Numerical",
+  "temp_mean": "Numerical",
+  "temp_max": "Ignore",
+  "temp_min": "Ignore",
+  "sunshine_quant": "Numerical",
+  "event": "Categorical",
+  "price": "Numerical",
+  "test": "test"
+}
