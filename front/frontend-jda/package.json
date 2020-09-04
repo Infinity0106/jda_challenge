@@ -14,7 +14,7 @@
     "clsx": "latest",
     "file-saver": "^2.0.2",
     "history": "^4.9.0",
-    "papaparse": "^5.0.2",
+    "papaparse": "^5.2.0",
     "react": "latest",
     "react-dom": "latest",
     "react-pivot": "^4.1.0",
