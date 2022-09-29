@@ -21,7 +21,7 @@
     "react-pivot-table": "^1.0.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "latest",
-    "recharts": "^1.7.1",
+    "recharts": "^2.1.14",
     "ts-react-json-table": "^0.1.2"
   },
   "browserslist": {
